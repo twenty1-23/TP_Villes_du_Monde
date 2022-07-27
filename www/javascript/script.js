@@ -29,8 +29,25 @@ class WorldCities extends AbstractApp {
 
     }
 
+    searchInputHandler(evt){
+        console.log("evt", evt.detail.value);
+    }
+
     initInput(){
         const searchIpt = new SearchInput(this.containerDiv.querySelector("#search"));
+        searchIpt.addEventListener(SearchInputEventNames.SEARCH_INPUT, this.searchInputHandler);
+        searchIpt.addEventListener(SearchInputEventNames.CLEAR_SEARCH_INPUT, this.searchInputHandler);
+    }
+}
+
+const SearchInputEventNames = {
+    SEARCH_INPUT: "search_input",
+    CLEAR_SEARCH_INPUT: "clear_search_input"
+}
+
+class SearchInputEvent extends CustomEvent {
+    constructor(type, options){
+        super(type, options);
     }
 }
 
@@ -46,9 +63,19 @@ class SearchInput extends AbstractUIComponent {
         this.init();
     }
 
+    get value(){
+        return this.searchIpt.value;
+    }
+
     searchInputHandler(param){
         console.log(this.searchIpt.value);
         this.checkClearButton();
+        const evt = new SearchInputEvent(SearchInputEventNames.SEARCH_INPUT, {
+            detail: {
+              value: this.value
+            }
+          });
+        this.dispatchEvent(evt);
     }
 
     clearSearchHandler(param){
@@ -56,6 +83,12 @@ class SearchInput extends AbstractUIComponent {
         
         this.searchIpt.value = "";
         this.checkClearButton();
+        const evt = new SearchInputEvent(SearchInputEventNames.CLEAR_SEARCH_INPUT, {
+            detail: {
+              value: this.value
+            }
+          });
+          this.dispatchEvent(evt);
     }
 
     checkClearButton(){
