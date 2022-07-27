@@ -17,6 +17,63 @@ if (isDebug == "false") {
 console.log("debug", debug);
 // -------------- MODE DEBUG --------------------
 
+class AbstractButton extends EventTarget {
+    constructor(buttonDiv) {
+        super();
+
+        this.buttonDiv = buttonDiv;
+        // https://medium.com/@bigcatplichta/javascript-use-bind-to-dynamically-add-and-remove-event-listeners-d6b443877a73
+        this.boundEventHandler = this.buttonClickHandler.bind(this);
+        this.isDisable = false;
+        // console.log("buttonDiv", this.buttonDiv);
+    }
+
+    /**
+     * @description Disable or not the button.
+     * @param {Boolean} bool 
+     */
+    disable(bool = true) {
+        this.isDisable = bool;
+        this.buttonDiv.style.cursor = bool ? "auto" : "pointer";
+        if (bool) {
+            this.buttonDiv.removeEventListener(EventNames.CLICK, this.boundEventHandler);
+        } else {
+            this.buttonDiv.addEventListener(EventNames.CLICK, this.boundEventHandler)
+        }
+    }
+
+    buttonClickHandler() {
+        console.log("AbstractButton clicked.", this);
+    }
+
+};
+
+const AbstractAppEventNames = {
+    INIT: "init"
+};
+
+class AbstractAppEvent extends CustomEvent {
+    constructor(type) {
+        super(type);
+    }
+};
+
+class AbstractApp extends EventTarget {
+    constructor(containerDiv){
+        super();
+        this.containerDiv = containerDiv;
+        this.dataSource;
+    }
+
+    init(dataSource){
+        console.log("AbstractApp", "init", "app initialized.", dataSource);
+        
+        this.dataSource = dataSource;
+        
+        this.dispatchEvent(new AbstractAppEvent(AbstractAppEventNames.INIT));
+    }
+}
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
