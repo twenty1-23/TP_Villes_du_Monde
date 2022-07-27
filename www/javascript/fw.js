@@ -3,7 +3,8 @@ const EventNames = {
     MOUSE_UP: "mouseup",
     CLICK: "click",
     MOUSE_OVER: "mouseover",
-    MOUSE_OUT: "mouseout"
+    MOUSE_OUT: "mouseout",
+    INPUT: "input"
     // etc
 };
 // -------------- MODE DEBUG --------------------
@@ -16,6 +17,16 @@ if (isDebug == "false") {
 }
 console.log("debug", debug);
 // -------------- MODE DEBUG --------------------
+
+class AbstractUIComponent extends EventTarget {
+    constructor(UIView){
+        super();
+        this.UIView = UIView;
+
+        console.log("this.UIView", this.UIView);
+        
+    }
+}
 
 class AbstractButton extends EventTarget {
     constructor(buttonDiv) {
