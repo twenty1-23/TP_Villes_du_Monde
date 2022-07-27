@@ -1,0 +1,54 @@
+// https://en.wikipedia.org/api/rest_v1/page/summary/Pointe-%C3%A0-Pitre
+{
+    "type": "standard",
+    "title": "Pointe-à-Pitre",
+    "displaytitle": "Pointe-à-Pitre",
+    "namespace": {
+        "id": 0,
+        "text": ""
+    },
+    "wikibase_item": "Q335322",
+    "titles": {
+        "canonical": "Pointe-à-Pitre",
+        "normalized": "Pointe-à-Pitre",
+        "display": "Pointe-à-Pitre"
+    },
+    "pageid": 355894,
+    "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pointe-%C3%A0-Pitre.JPG/320px-Pointe-%C3%A0-Pitre.JPG",
+        "width": 320,
+        "height": 163
+    },
+    "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/5/54/Pointe-%C3%A0-Pitre.JPG",
+        "width": 2540,
+        "height": 1296
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1100348940",
+    "tid": "c0c9c060-0c5e-11ed-b66b-a79fca7ca2df",
+    "timestamp": "2022-07-25T13:01:36Z",
+    "description": "Subprefecture, commune, and the center of the largest metropolitan area in Guadeloupe",
+    "description_source": "local",
+    "coordinates": {
+        "lat": 16.2411,
+        "lon": -61.5331
+    },
+    "content_urls": {
+        "desktop": {
+            "page": "https://en.wikipedia.org/wiki/Pointe-%C3%A0-Pitre",
+            "revisions": "https://en.wikipedia.org/wiki/Pointe-%C3%A0-Pitre?action=history",
+            "edit": "https://en.wikipedia.org/wiki/Pointe-%C3%A0-Pitre?action=edit",
+            "talk": "https://en.wikipedia.org/wiki/Talk:Pointe-%C3%A0-Pitre"
+        },
+        "mobile": {
+            "page": "https://en.m.wikipedia.org/wiki/Pointe-%C3%A0-Pitre",
+            "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Pointe-%C3%A0-Pitre",
+            "edit": "https://en.m.wikipedia.org/wiki/Pointe-%C3%A0-Pitre?action=edit",
+            "talk": "https://en.m.wikipedia.org/wiki/Talk:Pointe-%C3%A0-Pitre"
+        }
+    },
+    "extract": "Pointe-à-Pitre is the second largest city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-préfecture, being the seat of the Arrondissement of Pointe-à-Pitre.",
+    "extract_html": "<p><b>Pointe-à-Pitre</b> is the second largest city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a <i>sous-préfecture</i>, being the seat of the Arrondissement of Pointe-à-Pitre.</p>"
+}

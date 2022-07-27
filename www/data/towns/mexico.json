@@ -1,0 +1,54 @@
+{
+    "api": "https://en.wikipedia.org/api/rest_v1/page/summary/Mexico",
+    "type": "standard",
+    "title": "Mexico",
+    "displaytitle": "Mexico",
+    "namespace": {
+        "id": 0,
+        "text": ""
+    },
+    "wikibase_item": "Q96",
+    "titles": {
+        "canonical": "Mexico",
+        "normalized": "Mexico",
+        "display": "Mexico"
+    },
+    "pageid": 3966054,
+    "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/320px-Flag_of_Mexico.svg.png",
+        "width": 320,
+        "height": 183
+    },
+    "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/980px-Flag_of_Mexico.svg.png",
+        "width": 980,
+        "height": 560
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1100778203",
+    "tid": "c2ca9820-0dcc-11ed-9a74-9d23bf314ca5",
+    "timestamp": "2022-07-27T16:54:08Z",
+    "description": "Country in North America",
+    "description_source": "local",
+    "coordinates": {
+        "lat": 23,
+        "lon": -102
+    },
+    "content_urls": {
+        "desktop": {
+            "page": "https://en.wikipedia.org/wiki/Mexico",
+            "revisions": "https://en.wikipedia.org/wiki/Mexico?action=history",
+            "edit": "https://en.wikipedia.org/wiki/Mexico?action=edit",
+            "talk": "https://en.wikipedia.org/wiki/Talk:Mexico"
+        },
+        "mobile": {
+            "page": "https://en.m.wikipedia.org/wiki/Mexico",
+            "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Mexico",
+            "edit": "https://en.m.wikipedia.org/wiki/Mexico?action=edit",
+            "talk": "https://en.m.wikipedia.org/wiki/Talk:Mexico"
+        }
+    },
+    "extract": "Mexico, officially the United Mexican States, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico. Mexico covers 1,972,550 square kilometers (761,610 sq mi), making it the world's 13th-largest country by area; with approximately 126,014,024 inhabitants, it is the 10th-most-populous country and has the most Spanish-speakers. Mexico is organized as a federal republic comprising 31 states and Mexico City, its capital. Other major urban areas include Monterrey, Guadalajara, Puebla, Toluca, Tijuana, Ciudad Juárez, and León.",
+    "extract_html": "<p><b>Mexico</b>, officially the <b>United Mexican States</b>, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico. Mexico covers 1,972,550 square kilometers (761,610 sq mi), making it the world's 13th-largest country by area; with approximately 126,014,024 inhabitants, it is the 10th-most-populous country and has the most Spanish-speakers. Mexico is organized as a federal republic comprising 31 states and Mexico City, its capital. Other major urban areas include Monterrey, Guadalajara, Puebla, Toluca, Tijuana, Ciudad Juárez, and León.</p>"
+}

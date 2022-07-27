@@ -1,0 +1,54 @@
+{
+    "api": "https://en.wikipedia.org/api/rest_v1/page/summary/Berlin",
+    "type": "standard",
+    "title": "Berlin",
+    "displaytitle": "Berlin",
+    "namespace": {
+        "id": 0,
+        "text": ""
+    },
+    "wikibase_item": "Q64",
+    "titles": {
+        "canonical": "Berlin",
+        "normalized": "Berlin",
+        "display": "Berlin"
+    },
+    "pageid": 3354,
+    "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Siegessaeule_Aussicht_10-13_img4_Tiergarten.jpg/320px-Siegessaeule_Aussicht_10-13_img4_Tiergarten.jpg",
+        "width": 320,
+        "height": 213
+    },
+    "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Siegessaeule_Aussicht_10-13_img4_Tiergarten.jpg",
+        "width": 5184,
+        "height": 3456
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1099340817",
+    "tid": "821f8570-08da-11ed-bb42-c1795a42ecbe",
+    "timestamp": "2022-07-20T07:38:32Z",
+    "description": "Capital and largest city of Germany",
+    "description_source": "local",
+    "coordinates": {
+        "lat": 52.52,
+        "lon": 13.405
+    },
+    "content_urls": {
+        "desktop": {
+            "page": "https://en.wikipedia.org/wiki/Berlin",
+            "revisions": "https://en.wikipedia.org/wiki/Berlin?action=history",
+            "edit": "https://en.wikipedia.org/wiki/Berlin?action=edit",
+            "talk": "https://en.wikipedia.org/wiki/Talk:Berlin"
+        },
+        "mobile": {
+            "page": "https://en.m.wikipedia.org/wiki/Berlin",
+            "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Berlin",
+            "edit": "https://en.m.wikipedia.org/wiki/Berlin?action=edit",
+            "talk": "https://en.m.wikipedia.org/wiki/Talk:Berlin"
+        }
+    },
+    "extract": "Berlin is the capital and largest city of Germany by both area and population. Its 3.7 million inhabitants make it the European Union's most populous city, according to population within city limits. One of Germany's sixteen constituent states, Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital. Berlin's urban area, which has a population of around 4.5 million, is the second most populous urban area in Germany after the Ruhr. The Berlin-Brandenburg capital region has around 6.2 million inhabitants and is Germany's third-largest metropolitan region after the Rhine-Ruhr and Rhine-Main regions. There was an unsuccessful attempt to unify both states in 1996, and despite remaining separate, the two states cooperate on many matters to this day.",
+    "extract_html": "<p><b>Berlin</b> is the capital and largest city of Germany by both area and population. Its 3.7 million inhabitants make it the European Union's most populous city, according to population within city limits. One of Germany's sixteen constituent states, Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital. Berlin's urban area, which has a population of around 4.5 million, is the second most populous urban area in Germany after the Ruhr. The Berlin-Brandenburg capital region has around 6.2 million inhabitants and is Germany's third-largest metropolitan region after the Rhine-Ruhr and Rhine-Main regions. There was an unsuccessful attempt to unify both states in 1996, and despite remaining separate, the two states cooperate on many matters to this day.</p>"
+}

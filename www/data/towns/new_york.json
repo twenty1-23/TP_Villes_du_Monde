@@ -1,0 +1,40 @@
+{
+    "api": "// https://en.wikipedia.org/api/rest_v1/page/summary/New_York",
+    "type": "disambiguation",
+    "title": "New York",
+    "displaytitle": "New York",
+    "namespace": {
+        "id": 0,
+        "text": ""
+    },
+    "wikibase_item": "Q22654",
+    "titles": {
+        "canonical": "New_York",
+        "normalized": "New York",
+        "display": "New York"
+    },
+    "pageid": 673381,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1098956260",
+    "tid": "95401010-0674-11ed-bacc-91fcae972add",
+    "timestamp": "2022-07-18T08:35:29Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+        "desktop": {
+            "page": "https://en.wikipedia.org/wiki/New_York",
+            "revisions": "https://en.wikipedia.org/wiki/New_York?action=history",
+            "edit": "https://en.wikipedia.org/wiki/New_York?action=edit",
+            "talk": "https://en.wikipedia.org/wiki/Talk:New_York"
+        },
+        "mobile": {
+            "page": "https://en.m.wikipedia.org/wiki/New_York",
+            "revisions": "https://en.m.wikipedia.org/wiki/Special:History/New_York",
+            "edit": "https://en.m.wikipedia.org/wiki/New_York?action=edit",
+            "talk": "https://en.m.wikipedia.org/wiki/Talk:New_York"
+        }
+    },
+    "extract": "New York most commonly refers to:New York City, the most populous city in the United States, located in the state of New York\nNew York (state), a state in the northeastern United States",
+    "extract_html": "<p><b>New York</b> most commonly refers to:</p><ul><li>New York City, the most populous city in the United States, located in the state of New York</li>\n<li>New York (state), a state in the northeastern United States</li></ul>"
+}

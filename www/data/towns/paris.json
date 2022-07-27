@@ -1,0 +1,54 @@
+{
+    "api": "https://en.wikipedia.org/api/rest_v1/page/summary/Paris",
+    "type": "standard",
+    "title": "Paris",
+    "displaytitle": "Paris",
+    "namespace": {
+        "id": 0,
+        "text": ""
+    },
+    "wikibase_item": "Q90",
+    "titles": {
+        "canonical": "Paris",
+        "normalized": "Paris",
+        "display": "Paris"
+    },
+    "pageid": 22989,
+    "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
+        "width": 320,
+        "height": 200
+    },
+    "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
+        "width": 4592,
+        "height": 2870
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1100145213",
+    "tid": "6c3ef440-0d60-11ed-b696-cfc1459698a6",
+    "timestamp": "2022-07-24T11:55:59Z",
+    "description": "Capital city in Île-de-France, France",
+    "description_source": "local",
+    "coordinates": {
+        "lat": 48.856613,
+        "lon": 2.352222
+    },
+    "content_urls": {
+        "desktop": {
+            "page": "https://en.wikipedia.org/wiki/Paris",
+            "revisions": "https://en.wikipedia.org/wiki/Paris?action=history",
+            "edit": "https://en.wikipedia.org/wiki/Paris?action=edit",
+            "talk": "https://en.wikipedia.org/wiki/Talk:Paris"
+        },
+        "mobile": {
+            "page": "https://en.m.wikipedia.org/wiki/Paris",
+            "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Paris",
+            "edit": "https://en.m.wikipedia.org/wiki/Paris?action=edit",
+            "talk": "https://en.m.wikipedia.org/wiki/Talk:Paris"
+        }
+    },
+    "extract": "Paris is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km², making it the 34th most densely populated city in the world in 2020. Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, science, and arts, and has sometimes been referred to as the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12 262 544 in 2019, or about 19% of the population of France. The Paris Region had a GDP of €739 billion in 2019, which is the highest of Europe. According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021 Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv.",
+    "extract_html": "<p><b>Paris</b> is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km², making it the 34th most densely populated city in the world in 2020. Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, science, and arts, and has sometimes been referred to as the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12 262 544 in 2019, or about 19% of the population of France. The Paris Region had a GDP of €739 billion in 2019, which is the highest of Europe. According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021 Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv.</p>"
+}
