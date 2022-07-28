@@ -138,6 +138,11 @@ right_container_images {
     display: block;
 }
 
+#error{
+    color: red;
+    background-color: yellow;
+}
+
 footer{
     clear: both;
 }

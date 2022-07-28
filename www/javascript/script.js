@@ -5,7 +5,7 @@ class WorldCities extends AbstractApp {
         this.towns = [];
         this.baseTowns = [];
         this.indexer;
-        this.select;
+        // this.select;
         this.searchIpt;
     }
 
@@ -16,7 +16,7 @@ class WorldCities extends AbstractApp {
     init(dataSource) {
         this.initTowns(dataSource);
         this.initIndexer();
-        this.initSelect();
+        // this.initSelect();
         this.initInput();
         this.loadTown(this.indexer.value);
 
@@ -52,31 +52,53 @@ class WorldCities extends AbstractApp {
     }
 
     loadTown(index) {
-        const town = this.towns[index];
-        console.log("loadTown", town);
-
         const leftContainerDiv = this.containerDiv.querySelector("#left_container");
         const leftContainerDivH2 = leftContainerDiv.querySelector("h2");
-        leftContainerDivH2.innerHTML = '<a href="' + town.url + '" target="blank">' + town.name + '</a>';
-
         const leftContainerDivP = leftContainerDiv.querySelector("p");
-        leftContainerDivP.innerHTML = town.description;
+        const errorDiv = this.containerDiv.querySelector("#error");
+
+        if (index == -1) {
+            leftContainerDivH2.innerHTML = "";
+            leftContainerDivP.innerHTML = "";
+            errorDiv.textContent = "Aucun résultat.";
+        } else {
+            const town = this.towns[index];
+            leftContainerDivH2.innerHTML = '<a href="' + town.url + '" target="blank">' + town.name + '</a>';
+            leftContainerDivP.innerHTML = town.description;
+            errorDiv.textContent = "";
+        }
+    }
+
+    loadGalery(){
+        const gallery = this.containerDiv.querySelector("#gallery");
+        
     }
 
     searchInputHandler() {
         console.log("searchInputHandler", this.searchIpt.value);
+        this.towns = this.filterElement(this.baseTowns, this.searchIpt.value);
+        console.log("towns", this.towns.length);
+        if (this.towns.length > 0) {
+            this.refresh();
+        } else {
+            this.indexer.totalItems = 0;
+            this.indexer.index = 0;
+            this.indexer.setNumber();
+            this.loadTown(-1);
+        }
     }
 
     clearSearchInputHandler() {
+        
         this.towns = [this.baseTowns];
+        console.log("clearSearchInputHandler", this.towns);
         this.refresh();
     }
 
     refresh() {
         this.index = 0;
-        this.loadTown(this.indexer.value);
-        // loadQuote(index);
-        // checkIndex();
+        this.indexer.totalItems = this.towns.length;
+        // this.loadTown(this.indexer.value);
     }
 
     filterElement(arr, filter) {
@@ -113,7 +135,6 @@ class WorldCities extends AbstractApp {
     initIndexer() {
         const optionsDiv = this.containerDiv.querySelector("#options");
         this.indexer = new Indexer(optionsDiv, this.towns.length, indexerMode.LOOP);
-        // this.indexer.addEventListener(IndexerEventNames.INDEX_CHANGED, this.indexerIndexChangeHandler);
 
         this.indexer.addEventListener(IndexerEventNames.INDEX_CHANGED, function () {
             this.indexerIndexChangeHandler();
@@ -139,7 +160,7 @@ class Select extends AbstractUIComponent {
         this.init();
     }
 
-    set data(dataSource){
+    set data(dataSource) {
         // for (const town of this.towns) {
         //     const option = document.createElement("option");
         //     option.textContent = town.name;
@@ -267,6 +288,11 @@ class Indexer extends AbstractUIComponent {
         this.indexerMode = value;
     }
 
+    set totalItems(value) {
+        this.total = value;
+        this.setNumber();
+    }
+
     get value() {
         return super.value;
     }
@@ -325,11 +351,8 @@ class Indexer extends AbstractUIComponent {
     }
 
     setNumber() {
-
         const indexDiv = this.UIView.querySelector("#index");
         indexDiv.textContent = this.getZeroFormat(this.index + 1, this.total) + "/" + this.total;
-
-        console.log("setNumber", this.index + 1);
     }
 
     getZeroFormat(num, limit) {
