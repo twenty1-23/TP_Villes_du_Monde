@@ -55,6 +55,7 @@ class WorldCities extends AbstractApp {
         const leftContainerDiv = this.containerDiv.querySelector("#left_container");
         const leftContainerDivH2 = leftContainerDiv.querySelector("h2");
         const leftContainerDivP = leftContainerDiv.querySelector("p");
+        const desc = this.containerDiv.querySelector("#desc");
         const rightContainerDiv = this.containerDiv.querySelector("#right_container");
         const townNameDiv = this.containerDiv.querySelector("#town_name");
         const townNameDivH3 = townNameDiv.querySelector("h3");
@@ -65,13 +66,15 @@ class WorldCities extends AbstractApp {
         const errorDiv = this.containerDiv.querySelector("#error");
 
         if (index == -1) {
-            // leftContainerDivH2.innerHTML = "";
-            // leftContainerDivP.innerHTML = "";
             errorDiv.textContent = "Aucun résultat.";
         } else {
             const town = this.towns[index];
             leftContainerDivH2.innerHTML = '<a href="' + town.url + '" target="blank">' + town.name + '</a>';
-            leftContainerDivP.innerHTML = town.description;
+            console.log("test", town.test);
+            
+            desc.innerHTML = town.description;
+            console.log(desc);
+            
             townNameDivH3.textContent = town.name;
             const sup = town.region == "" ? town.state : town.region;
             townNameDivH4.innerHTML = '<i>' + town.country + ", " + sup + '</i>';
@@ -116,16 +119,13 @@ class WorldCities extends AbstractApp {
     }
 
     clearSearchInputHandler() {
-        
         this.towns = [this.baseTowns];
-        console.log("clearSearchInputHandler", this.towns);
         this.refresh();
     }
 
     refresh() {
         this.index = 0;
         this.indexer.totalItems = this.towns.length;
-        // this.loadTown(this.indexer.value);
     }
 
     filterElement(arr, filter) {
