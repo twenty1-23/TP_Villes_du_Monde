@@ -138,6 +138,13 @@ right_container_images {
     display: block;
 }
 
+.gallery_img{
+    max-width: 92%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 #error{
     color: red;
     background-color: yellow;

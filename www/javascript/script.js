@@ -65,13 +65,28 @@ class WorldCities extends AbstractApp {
             const town = this.towns[index];
             leftContainerDivH2.innerHTML = '<a href="' + town.url + '" target="blank">' + town.name + '</a>';
             leftContainerDivP.innerHTML = town.description;
+            this.loadGallery(town.images);
             errorDiv.textContent = "";
         }
     }
 
-    loadGalery(){
+    loadGallery(images){
         const gallery = this.containerDiv.querySelector("#gallery");
-        
+        const galleryDivs = gallery.querySelectorAll("div");
+        for (const div of galleryDivs) {
+            div.remove();
+        }
+        for (const image of images) {
+            const div = document.createElement("div");
+            const img = document.createElement("img");
+            img.src = "image/" + image.url;
+            img.className = "gallery_img";
+            div.appendChild(img);
+            const h6 = document.createElement("h6");
+            h6.textContent = image.caption;
+            div.appendChild(h6);
+            gallery.appendChild(div);
+        }
     }
 
     searchInputHandler() {
