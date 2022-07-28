@@ -1,8 +1,50 @@
+h1{
+    text-align: center;
+}
+
 #container{
     margin: 12px auto;
-    width: 595px;
+    width: 720px;
     border-style: solid;
     border-color: #757474;
     border-width: thin;
     background-color: white;
+}
+
+#left, #right{
+    display: inline-block;
+}
+
+#left{
+    width: 68%;
+}
+
+#left_container{
+    width: 356px;
+    margin: auto;
+    margin-bottom: 21px;
+}
+
+#right{
+    width: 30%;
+    background-color: #d9d9d9;
+    float: right;
+}
+
+#right_container{
+    width: 146px;
+    margin: 20px auto 0 auto;
+    margin-right: auto;
+}
+
+#right_container_images img{
+    max-width: 182px;
+    height: auto;
+    border-radius: 3%;
+    margin: 0 auto;
+    display: block;
+}
+
+footer{
+    clear: both;
 }

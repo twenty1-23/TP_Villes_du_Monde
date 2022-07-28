@@ -2,6 +2,7 @@
     "towns":[
         {
             "name": "Pointe-à-Pitre",
+            "url": "https://en.wikipedia.org/wiki/Berlin",
             "country": "France",
             "region": "Guadeloupe",
             "state": "",
@@ -21,6 +22,7 @@
         },
         {
             "name": "New York",
+            "url": "https://en.wikipedia.org/wiki/Berlin",
             "country": "Etats-Unis",
             "region": "",
             "state": "New York",
@@ -40,6 +42,7 @@
         },
         {
             "name": "New York",
+            "url": "https://en.wikipedia.org/wiki/Berlin",
             "country": "Etats-Unis",
             "region": "",
             "state": "New York",
