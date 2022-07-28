@@ -379,4 +379,4 @@ function checkIndex() {
 const worldCities = new WorldCities(document);
 worldCities.addEventListener(AbstractAppEventNames.INIT, appInitHandler);
 
-loadDatas();
+// loadDatas();
