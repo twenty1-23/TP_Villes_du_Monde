@@ -19,6 +19,17 @@
         <div id="previous" class="buttonNextPrevious">←</div>
         <div id="index">01/12</div>
         <div id="next" class="buttonNextPrevious">→</div>
+        <div id="select">
+            <select name="towns" id="town-select">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+        </div>
         <div id="search">
             <input id="search_ipt">
             <button id="clear_search_ipt_btn">X</button>
@@ -53,8 +64,9 @@
                                         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aspernatur,
                                             iure reprehenderit assumenda omnis, neque expedita nulla odit, error praesentium
                                             quam perspiciatis soluta mollitia architecto delectus laborum porro! Quisquam,
-                                            porro?<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-                                            illum voluptatem. Ducimus saepe quidem optio est nisi laborum, doloribus consectetur
+                                            porro?
+                                            <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, illum
+                                            voluptatem. Ducimus saepe quidem optio est nisi laborum, doloribus consectetur
                                             tempora, officia, exercitationem praesentium velit ex quibusdam reprehenderit
                                             architecto mollitia.
                                             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, rerum! Quisquam
@@ -98,12 +110,12 @@
                                                                             assumenda omnis, neque expedita nulla odit, error
                                                                             praesentium quam perspiciatis soluta mollitia
                                                                             architecto delectus laborum porro! Quisquam,
-                                                                            porro?<br> Lorem ipsum dolor sit amet consectetur
-                                                                            adipisicing elit. Pariatur, illum voluptatem.
-                                                                            Ducimus saepe quidem optio est nisi laborum,
-                                                                            doloribus consectetur tempora, officia, exercitationem
-                                                                            praesentium velit ex quibusdam reprehenderit
-                                                                            architecto mollitia.
+                                                                            porro?
+                                                                            <br> Lorem ipsum dolor sit amet consectetur adipisicing
+                                                                            elit. Pariatur, illum voluptatem. Ducimus saepe
+                                                                            quidem optio est nisi laborum, doloribus consectetur
+                                                                            tempora, officia, exercitationem praesentium
+                                                                            velit ex quibusdam reprehenderit architecto mollitia.
                                                                             <p> Lorem ipsum dolor sit amet consectetur adipisicing
                                                                                 elit. Enim, rerum! Quisquam obcaecati rem,
                                                                                 expedita voluptates earum unde minus mollitia
@@ -123,14 +135,16 @@
         <div id="right">
             <div id="right_container">
                 <section id="town_name">
-                    <div id="right_container_town_name">
+                    <h2>Présentation</h2>
+                    <div id="town_name">
                         <h3>Nom de la ville</h3>
                     </div>
-                    <div id="right_container_town_details">
+                    <div id="town_name_details">
                         <h4><i>Région, Pays</i><br>(10 234 hab.)</h4>
                     </div>
                 </section>
                 <section id="town_gallery">
+                    <h2>Galerie</h2>
                     <div id="right_container_images">
                         <img src="image/1920px-Pointe-à-Pitre.jpeg">
                         <h6 id="caption">légende de l'image</h6>
@@ -140,7 +154,23 @@
                         <h6 id="caption">légende de l'image</h6>
                     </div>
                 </section>
-
+                <section id="town_misc">
+                    <h2>Divers</h2>
+                    <div id="town_misc_content_left">
+                        <ul>
+                            <li>Maire</li>
+                            <li>Anglais</li>
+                            <li>Espagnol</li>
+                        </ul>
+                    </div>
+                    <div id=town_misc_content_right>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </div>
         <footer></footer>

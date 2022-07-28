@@ -14,8 +14,8 @@ class WorldCities extends AbstractApp {
 
     init(dataSource) {
         this.initTowns(dataSource);
-        this.initInput();
         this.initIndexer();
+        this.initInput();
         this.loadTown(this.indexer.value);
 
         super.init(dataSource);
@@ -31,6 +31,10 @@ class WorldCities extends AbstractApp {
         this.towns = [...this.baseTowns];
         console.log("this.towns", this.towns);
 
+    }
+
+    initSelect(){
+        
     }
 
     loadTown(index) {
@@ -379,4 +383,4 @@ function checkIndex() {
 const worldCities = new WorldCities(document);
 worldCities.addEventListener(AbstractAppEventNames.INIT, appInitHandler);
 
-// loadDatas();
+loadDatas();

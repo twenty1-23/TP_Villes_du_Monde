@@ -56,10 +56,19 @@ header h1{
     gap: 20px;
 }
 
+/* #search {
+    float: right;
+} */
+
+#town-select {
+    width: 320px;
+}
+
 section {
     border-style: solid;
     border-color: silver;
-    margin: 2px 2px 2px 2px;
+    border-width: thin;
+    margin: 8px 8px 8px 8px;
     padding: 2px 2px 2px 2px;
 }
 
@@ -71,13 +80,24 @@ section h2 {
     border-style: none;
 }
 
-#container{
+#index{
+    font-size: 1em;
+}
+
+#container, #options{
     margin: 12px auto;
     width: 720px;
     border-style: solid;
-    border-color: #757474;
-    border-width: thin;
+    border-width: silver;
     background-color: white;
+}
+
+#container {
+    border-color: #757474;
+}
+
+#options {
+    border-color: #b5b5b5;
 }
 
 #left, #right{
@@ -89,7 +109,7 @@ section h2 {
 }
 
 #left_container{
-    width: 400px;
+    width: 420px;
     margin: auto;
     margin-bottom: 21px;
 }
