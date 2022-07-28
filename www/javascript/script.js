@@ -5,6 +5,7 @@ class WorldCities extends AbstractApp {
         this.towns = [];
         this.baseTowns = [];
         this.indexer;
+        this.select;
         this.searchIpt;
     }
 
@@ -15,6 +16,7 @@ class WorldCities extends AbstractApp {
     init(dataSource) {
         this.initTowns(dataSource);
         this.initIndexer();
+        this.initSelect();
         this.initInput();
         this.loadTown(this.indexer.value);
 
@@ -33,18 +35,30 @@ class WorldCities extends AbstractApp {
 
     }
 
-    initSelect(){
-        
+    initSelect() {
+        // const townSelect = this.containerDiv.querySelector("#town-select");
+        // const options = townSelect.querySelectorAll("option");
+
+        // for (const option of options) {
+        //     option.remove();
+        // }
+        // for (const town of this.towns) {
+        //     const option = document.createElement("option");
+        //     option.textContent = town.name;
+        //     townSelect.appendChild(option);
+        // }
+
+        // this.select = new Select(this.containerDiv.querySelector("#town-select"));
     }
 
     loadTown(index) {
         const town = this.towns[index];
         console.log("loadTown", town);
-        
+
         const leftContainerDiv = this.containerDiv.querySelector("#left_container");
         const leftContainerDivH2 = leftContainerDiv.querySelector("h2");
         leftContainerDivH2.innerHTML = '<a href="' + town.url + '" target="blank">' + town.name + '</a>';
-        
+
         const leftContainerDivP = leftContainerDiv.querySelector("p");
         leftContainerDivP.innerHTML = town.description;
     }
@@ -118,6 +132,35 @@ class SearchInputEvent extends CustomEvent {
     }
 }
 
+class Select extends AbstractUIComponent {
+    constructor(UIView) {
+        super(UIView);
+
+        this.init();
+    }
+
+    set data(dataSource){
+        // for (const town of this.towns) {
+        //     const option = document.createElement("option");
+        //     option.textContent = town.name;
+        //     townSelect.appendChild(option);
+        // }
+    }
+
+    init() {
+        empty();
+
+        super.init();
+    }
+
+    empty() {
+        const options = this.UIView.querySelectorAll("option");
+        for (const option of options) {
+            option.remove();
+        }
+    }
+}
+
 class SearchInput extends AbstractUIComponent {
     constructor(UIView) {
         super(UIView);
@@ -135,7 +178,7 @@ class SearchInput extends AbstractUIComponent {
         super.value = value;
     }
 
-    get value(){
+    get value() {
         return super.value;
     }
 
