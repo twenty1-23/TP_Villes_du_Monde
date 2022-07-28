@@ -37,6 +37,25 @@
                 }
             ],
             "description":"New York most commonly refers to:\n\nNew York City, the most populous city in the United States, located in the state of New York\nNew York (state), a state in the northeastern United StatesNew York may also refer to:\n\n"
+        },
+        {
+            "name": "New York",
+            "country": "Etats-Unis",
+            "region": "",
+            "state": "New York",
+            "major": "Eric Adams",
+            "inhabitants": 8804190,
+            "images": [
+                {
+                    "url": "1920px-Pointe-à-Pitre.jpeg",
+                    "caption": "1920px-Pointe-à-Pitre.jpeg"
+                },
+                {
+                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
+                    "caption": "La place de la victoire."
+                }
+            ],
+            "description":"New York most commonly refers to:\n\nNew York City, the most populous city in the United States, located in the state of New York\nNew York (state), a state in the northeastern United StatesNew York may also refer to:\n\n"
         }
     ]
 }
