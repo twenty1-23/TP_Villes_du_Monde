@@ -36,7 +36,13 @@ class WorldCities extends AbstractApp {
     loadTown(index) {
         const town = this.towns[index];
         console.log("loadTown", town);
-
+        
+        const leftContainerDiv = this.containerDiv.querySelector("#left_container");
+        const leftContainerDivH2 = leftContainerDiv.querySelector("h2");
+        leftContainerDivH2.innerHTML = '<a href="' + town.url + '" target="blank">' + town.name + '</a>';
+        
+        const leftContainerDivP = leftContainerDiv.querySelector("p");
+        leftContainerDivP.innerHTML = town.description;
     }
 
     searchInputHandler() {

@@ -1,12 +1,33 @@
 body {
-    margin: 0;
-    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-family: Arial, sans-serif, Helvetica;
     background-color: #ececec;
     font-size: 12px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: underline;
+    color: #444;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ff7a00;
+}
+
 header {
     background-color: tomato;
+    height: 112px;
+    display: flex;
+    align-items: center;
 }
 
 header h1{

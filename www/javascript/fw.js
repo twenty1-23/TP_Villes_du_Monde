@@ -25,7 +25,6 @@ class AbstractUIComponent extends EventTarget {
         this.valueComponent;
 
         console.log("this.UIView", this.UIView);
-        
     }
 
     get value(){
