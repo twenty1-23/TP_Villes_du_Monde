@@ -1,9 +1,8 @@
 {
     "towns":[
         {
-            "test": "test",
             "name": "Pointe-à-Pitre",
-            "link": "https://en.wikipedia.org/wiki/Pointe-à-Pitre",
+            "link": "https://fr.wikipedia.org/wiki/Pointe-à-Pitre",
             "country": "France",
             "region": "Guadeloupe",
             "state": "",
@@ -22,264 +21,88 @@
             "description": "Pointe-à-Pitre est une commune française située dans le département de la Guadeloupe. Habitée en 2014 par 16 261 personnes, la commune est, avec celle voisine des Abymes, au centre d'une vaste aire urbaine de 314 647 habitants, soit la 32e de France.","extract_html":"<p><b>Pointe-à-Pitre</b> est une commune française située dans le département de la Guadeloupe. Habitée en 2014 par 16 261 personnes, la commune est, avec celle voisine des Abymes, au centre d'une vaste aire urbaine de 314 647 habitants, soit la <abbr class=\"abbr\">32<sup>e</sup></abbr> de France.</p>"
         },
         {
-            "name": "Pointe-à-Pitre",
-            "link": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
+            "name": "Berlin",
+            "link": "https://fr.wikipedia.org/wiki/Berlin",
+            "country": "Allemagne",
+            "region": "Land Berlin",
             "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
+            "major": "Franziska Giffey",
+            "inhabitants": 3748148,
             "images": [
                 {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "Vue d'ensemble de Pointe à Pitre."
+                    "url": "1920px-Nr_2_Berlin_Panorama_von_der_Siegessäule_2021.jpg",
+                    "caption": "Vue aérienne de Berlin."
                 },
                 {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
+                    "url": "1620px-Berlin_-_Aerial_view_-_2016.jpg",
+                    "caption": "Vue aérienne."
+                },
+                {
+                    "url": "1669px-Schlachtensee_in_Berlin2019.jpg",
+                    "caption": "Schlachtensee."
                 }
             ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
+            "description": "<p><b>Berlin</b> est la capitale et la plus grande ville d'Allemagne. Institutionnellement, c’est une ville-État nommée <i>Land de Berlin</i>.</p>"
         },
         {
-            "name": "Pointe-à-Pitre",
-            "link": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
+            "name": "Mexico",
+            "link": "https://fr.wikipedia.org/wiki/Mexico",
+            "country": "Mexique",
+            "region": "Mexico",
             "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
+            "major": "Claudia Sheinbaum",
+            "inhabitants": 9209944,
             "images": [
                 {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
+                    "url": "1080px-Montaje.Ciudad_de_México.jpg",
+                    "caption": "De haut en bas: Ángel de la Independencia, Cathédrale métropolitaine de Mexico, Paseo de la Reforma, Torre Latinoamericana, Palais national, Parque La Mexicana à Santa Fe, Monument à la Révolution, Château de Chapultepec, Palais des beaux-arts de Mexico et Paseo de la Reforma."
                 }
             ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
+            "description": "<p><b>Mexico</b> est une entité fédérative et la capitale du Mexique.</p>"
         },
         {
-            "name": "Pointe-à-Pitre",
-            "link": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "Pointe-à-Pitre",
-            "link": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "Pointe-à-Pitre",
-            "link": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "Pointe-à-Pitre",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "Pointe-à-Pitre",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "Pointe-à-Pitre",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "Pointe-à-Pitre",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "Pointe-à-Pitre",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "Pointe-à-Pitre",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "France",
-            "region": "Guadeloupe",
-            "state": "",
-            "major": "Harry Durimel",
-            "inhabitants": 15181,
-            "images": [
-                {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
-                },
-                {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
-                }
-            ],
-            "description": "Pointe-\u00e0-Pitre (French pronunciation: \u200b[pw\u025b\u0303tapit\u0281]; Guadeloupean Creole: Pwentapit, [pw\u025b\u0303tapit], or simply Lapwent, [lapw\u025b\u0303t]) is the second largest (most populous) city of Guadeloupe after Les Abymes. Guadeloupe is an overseas region and department of France located in the Lesser Antilles, of which it is a sous-pr\u00e9fecture, being the seat of the Arrondissement of Pointe-\u00e0-Pitre.\nAlthough Pointe-\u00e0-Pitre is not Guadeloupe's administrative capital (that distinction goes to Basse-Terre), it is nonetheless the region's economic capital. The inhabitants are called \"Pointois\". In 2018, it had a population of 15,410 in the city (commune) of Pointe-\u00e0-Pitre proper and 250,952 inhabitants in the urban unit Pointe-\u00e0-Pitre\u2013Les Abymes. It is part of the metropolitan area of Les Abymes.\nPointe-\u00e0-Pitre International Airport, Guadeloupe's main international airport, is located 3 km (1.9 mi) north of downtown Pointe-\u00e0-Pitre in the commune of Les Abymes.\nHarry Durimel is the current mayor of Pointe-\u00e0-Pitre.\n\n"
-        },
-        {
-            "name": "New York",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "Etats-Unis",
+            "name": "New York City",
+            "link": "https://fr.wikipedia.org/wiki/New_York",
+            "country": "USA",
             "region": "",
             "state": "New York",
             "major": "Eric Adams",
             "inhabitants": 8804190,
             "images": [
                 {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
+                    "url": "1920px-Lower_Manhattan_skyline_-_June_2017.jpg",
+                    "caption": "Lower Manhattan skyline as seen from Governors Island in June 2017"
                 },
                 {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
+                    "url": "821px-NYC_Montage_2014_4_-_Jleon.jpg",
+                    "caption": "Montage de New York City"
                 }
             ],
-            "description":"New York most commonly refers to:\n\nNew York City, the most populous city in the United States, located in the state of New York\nNew York (state), a state in the northeastern United StatesNew York may also refer to:\n\n"
+            "description": "<p><b>New York</b> most commonly refers to:</p><ul><li>New York City, the most populous city in the United States, located in the state of New York</li>\n<li>New York (state), a state in the northeastern United States</li></ul>"
         },
         {
-            "name": "New York",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
-            "country": "Etats-Unis",
-            "region": "",
-            "state": "New York",
-            "major": "Eric Adams",
-            "inhabitants": 8804190,
+            "name": "Paris",
+            "link": "https://fr.wikipedia.org/wiki/Paris",
+            "country": "France",
+            "region": "Ile-de-France",
+            "state": "",
+            "major": "Anne Hidalgo",
+            "inhabitants": 2165423,
             "images": [
                 {
-                    "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
+                    "url": "La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_août_2014_(2).jpeg",
+                    "caption": "Vue de la Tour Eiffel."
                 },
                 {
-                    "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",
-                    "caption": "La place de la victoire."
+                    "url": "1920px-Pont_des_Arts,_Paris.jpg",
+                    "caption": "Le pont des Arts de Paris."
+                },
+                {
+                    "url": "1620px-Arcdetriomphe_2.jpg",
+                    "caption": "L'Arc de Triomphe."
                 }
             ],
-            "description":"New York most commonly refers to:\n\nNew York City, the most populous city in the United States, located in the state of New York\nNew York (state), a state in the northeastern United StatesNew York may also refer to:\n\n"
-        }
+            "description": "<p><b>Paris</b> est la capitale de la France. Divisée en vingt arrondissements, elle est le chef-lieu de la région Île-de-France et le siège de la métropole du Grand Paris.</p>"
+        } 
     ]
 }
