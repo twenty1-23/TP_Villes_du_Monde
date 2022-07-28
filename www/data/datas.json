@@ -2,7 +2,7 @@
     "towns":[
         {
             "name": "Pointe-à-Pitre",
-            "url": "https://en.wikipedia.org/wiki/Berlin",
+            "url": "https://en.wikipedia.org/wiki/Pointe-à-Pitre",
             "country": "France",
             "region": "Guadeloupe",
             "state": "",
@@ -31,7 +31,7 @@
             "images": [
                 {
                     "url": "1920px-Pointe-à-Pitre.jpeg",
-                    "caption": "1920px-Pointe-à-Pitre.jpeg"
+                    "caption": "Vue d'ensemble de Pointe à Pitre."
                 },
                 {
                     "url": "1440px-Place_de_la_Victoire_de_Pointe-à-Pitre_2.jpeg",

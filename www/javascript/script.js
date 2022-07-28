@@ -55,17 +55,29 @@ class WorldCities extends AbstractApp {
         const leftContainerDiv = this.containerDiv.querySelector("#left_container");
         const leftContainerDivH2 = leftContainerDiv.querySelector("h2");
         const leftContainerDivP = leftContainerDiv.querySelector("p");
+        const rightContainerDiv = this.containerDiv.querySelector("#right_container");
+        const townNameDiv = this.containerDiv.querySelector("#town_name");
+        const townNameDivH3 = townNameDiv.querySelector("h3");
+        const townNameDivH4 = townNameDiv.querySelector("h4");
+        const townMiscRight = this.containerDiv.querySelector("#town_misc_content_right");
+        const ulMajor = townMiscRight.querySelectorAll("li")[0];
+        const ulInhabitants = townMiscRight.querySelectorAll("li")[1];
         const errorDiv = this.containerDiv.querySelector("#error");
 
         if (index == -1) {
-            leftContainerDivH2.innerHTML = "";
-            leftContainerDivP.innerHTML = "";
+            // leftContainerDivH2.innerHTML = "";
+            // leftContainerDivP.innerHTML = "";
             errorDiv.textContent = "Aucun résultat.";
         } else {
             const town = this.towns[index];
             leftContainerDivH2.innerHTML = '<a href="' + town.url + '" target="blank">' + town.name + '</a>';
             leftContainerDivP.innerHTML = town.description;
+            townNameDivH3.textContent = town.name;
+            const sup = town.region == "" ? town.state : town.region;
+            townNameDivH4.innerHTML = '<i>' + town.country + ", " + sup + '</i>';
             this.loadGallery(town.images);
+            ulMajor.textContent = town.major;
+            ulInhabitants.textContent = town.inhabitants;
             errorDiv.textContent = "";
         }
     }

@@ -127,6 +127,25 @@ section h2 {
     text-align: center;
 }
 
+#town_misc{
+    text-align: left;
+    padding-left: 12px;
+}
+
+#town_misc_content_left, #town_misc_content_right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#town_misc_content_left ul{
+    width: 82px;
+    list-style: square;
+}
+
+#town_misc_content_right li{
+  /* margin-bottom: 9px; */
+}
+
 right_container_images {
     border-style: solid;
 }
