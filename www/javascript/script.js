@@ -9,7 +9,7 @@ class WorldCities extends AbstractApp {
         super.init(dataSource);
     }
 }
-
+ 
 const SearchInputEventNames = {
     SEARCH_INPUT: "search_input",
     CLEAR_SEARCH_INPUT: "clear_search_input"
