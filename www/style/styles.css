@@ -169,6 +169,19 @@ right_container_images {
     background-color: yellow;
 }
 
+.disabled {
+    color: gray;
+}
+
+.buttonNextPrevious {
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.buttonNextPrevious:hover {
+    color: red;
+}
+
 footer{
     clear: both;
 }
