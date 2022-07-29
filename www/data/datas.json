@@ -18,7 +18,7 @@
                     "caption": "La place de la victoire."
                 }
             ],
-            "description": "Pointe-à-Pitre est une commune française située dans le département de la Guadeloupe. Habitée en 2014 par 16 261 personnes, la commune est, avec celle voisine des Abymes, au centre d'une vaste aire urbaine de 314 647 habitants, soit la 32e de France.","extract_html":"<p><b>Pointe-à-Pitre</b> est une commune française située dans le département de la Guadeloupe. Habitée en 2014 par 16 261 personnes, la commune est, avec celle voisine des Abymes, au centre d'une vaste aire urbaine de 314 647 habitants, soit la <abbr class=\"abbr\">32<sup>e</sup></abbr> de France.</p>"
+            "description": "<p><b>Pointe-à-Pitre</b> est une commune française située dans le département de la Guadeloupe. Habitée en 2014 par 16 261 personnes, la commune est, avec celle voisine des Abymes, au centre d'une vaste aire urbaine de 314 647 habitants, soit la <abbr class=\"abbr\">32<sup>e</sup></abbr> de France.</p>"
         },
         {
             "name": "Berlin",
