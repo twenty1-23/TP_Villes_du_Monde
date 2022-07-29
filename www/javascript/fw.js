@@ -11,7 +11,7 @@ const EventNames = {
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const isDebug = urlParams.get('debug');
-let debug = (window.location.protocol == "file:") || (window.location.hostname == "127.0.0.1") || (isDebug == "true");
+let debug = (window.location.protocol == "file:") || (window.location.hostname == "127.0.0.1") || (window.location.hostname == "localhost") || (isDebug == "true");
 if (isDebug == "false") {
     debug = false;
 }
