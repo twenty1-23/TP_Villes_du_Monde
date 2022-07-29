@@ -124,8 +124,9 @@ class WorldCities extends AbstractApp {
     }
 
     refresh() {
-        this.index = 0;
         this.indexer.totalItems = this.towns.length;
+        console.log("this.indexer.total", this.indexer.total);
+        this.index = 0;
     }
 
     filterElement(arr, filter) {
@@ -372,7 +373,7 @@ class Indexer extends AbstractUIComponent {
                 value: super.value
             }
         });
-        console.log("checkIndex", this.indexerMode, super.value);
+        console.log("checkIndexxxxxx", this.indexerMode, super.value, this.total);
         this.setNumber();
         this.dispatchEvent(evt);
     }
