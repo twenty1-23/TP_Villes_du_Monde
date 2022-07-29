@@ -111,6 +111,10 @@ class Indexer extends AbstractUIComponent {
 
     checkIndex() {
         // Codez cette méthode. Adaptation en classe du TP Citation.
+        if (this.index == 0) {
+            disableButton(previous);
+            disableButton(next, !(this.WorldCities.length > 1));
+        }
     }
 
     setNumbers() {
