@@ -150,13 +150,6 @@ right_container_images {
     border-style: solid;
 }
 
-#right_container_images img{
-    max-width: 92%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-}
-
 .gallery_img{
     max-width: 92%;
     height: auto;
