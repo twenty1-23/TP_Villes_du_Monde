@@ -18,7 +18,7 @@ if (isDebug == "false") {
 console.log("debug", debug);
 // -------------- MODE DEBUG --------------------
 
-class AbstractUIComponent extends EventTarget {
+class AbstractUIComponent extends EventTarget { // DIAG
     constructor(UIView){
         super();
         this.UIView = UIView;
