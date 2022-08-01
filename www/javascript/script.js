@@ -11,9 +11,47 @@ class WorldCities extends AbstractApp {
 
     set index(value){}
 
-    initTowns(dataSource){}
+    initTowns(dataSource){
+        for (const town of dataSource.towns){
+            
+            const city = new City(town);
+            this.baseTowns.push(city);
+        }
+    }
 
-    loadTowns(index){}
+    loadTowns(index){
+        const town = this.baseTowns[index];
+
+        const leftContainer = this.containerDiv.querySelector("#left_container");
+        const leftContainerDiv2 = leftContainerDiv.querySelector("h2");
+        const desc = this.containerDiv.querySelector("#desc");
+
+        const rightContainer = this.containerDiv.querySelector("#right_container");
+        const townNameDiv = this.containerDiv.querySelector("#town_name");
+
+
+        leftContainerDiv2.textContent = town.name;
+        desc.innerHTML = town.description;
+    }
+
+    loadGallery(images){
+        const gallery = this.containerDiv.querySelector("#gallery");
+        const galleryDivS = gallery.querySelector("div");
+        for (const div of galleryDivs) {
+            div.remove();
+        }
+
+        for (const image of images) {
+            const div = document.createElement("div");
+            const img = document.createElement("img");
+            img.src = "images/" + image.url;
+            img.className = "gallery_img";
+            div.appendChild(img);
+
+            const h6 = document.createElement("h6");
+            h6.textContent = image.caption;
+        }
+    }
 
     searchInputHandler(){}
 
@@ -25,10 +63,16 @@ class WorldCities extends AbstractApp {
 
     initInputChangeHandler(){}
 
-    initIndexer(){}
+    initIndexer(){
+        const optionDiv = this.containerDiv.querySelector("#option");
+        this.indexer = new Indexer(optionDiv, this.baseTowns.length, IndexerMode.LOOP);
+    }
 
     init(dataSource) {
         // Codez cette méthode pour traiter le fichier chargé et initialiser la classe.
+        this.initTowns(dataSource);
+
+        this.loadTown(0);
         super.init(dataSource);
     }
 }
