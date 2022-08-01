@@ -4,6 +4,29 @@ class WorldCities extends AbstractApp {
 
     }
 
+    baseTowns(){}
+    towns(){}
+    indexer(){}
+    searchlpt(){}
+
+    set index(value){}
+
+    initTowns(dataSource){}
+
+    loadTowns(index){}
+
+    searchInputHandler(){}
+
+    clearSearchInputHandler(){}
+
+    refresh(){}
+
+    filterElement(arr, filter){}
+
+    initInputChangeHandler(){}
+
+    initIndexer(){}
+
     init(dataSource) {
         // Codez cette méthode pour traiter le fichier chargé et initialiser la classe.
         super.init(dataSource);
@@ -28,9 +51,16 @@ class SearchInput extends AbstractUIComponent {
         // Codez ici les propriétés définies dans le diagramme de classes.
         this.init();
     }
+    boundSearchInputHandler(){}
+
+    boundClearSearchHandler(){}
 
     get value() {
         return super.value;
+    }
+
+    set value(value){
+
     }
 
     searchInputHandler() {
@@ -76,9 +106,19 @@ class Indexer extends AbstractUIComponent {
         super(UIView);
 
         // Codez ici les propriétés définies dans le diagramme de classes.
+        this.total;
+        this.indexMode = node;
         this.init();
     }
 
+    total(){}
+
+    indexMode(){}
+
+    nextBtn(){}
+
+    previous(){}
+    
     set mode(value) {
         this.indexerMode = value;
     }
@@ -149,6 +189,7 @@ class IndexerButton extends AbstractButton {
 
     disable(bool = true) {
         // Codez cette méthode pour changer la couleur des boutons via la classe CSS. Adaptation en classe du TP Citation.
+        buttonDiv.className = bool ? "disabled" : "buttonNextPrevious";
         super.disable(bool);
     }
 }
