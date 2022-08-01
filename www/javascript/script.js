@@ -4,6 +4,11 @@ class WorldCities extends AbstractApp {
 
     }
 
+    /**
+     * Ces éléments ne sont pas des méthodes mais de propriétés de classe.
+     * A mettre donc dans le constructeur.
+     * Revois le diagramme pour corriger.
+     */
     baseTowns(){}
     towns(){}
     indexer(){}
