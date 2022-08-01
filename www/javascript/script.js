@@ -2,6 +2,10 @@ class WorldCities extends AbstractApp {
     constructor(containerDiv) {
         super(containerDiv);
 
+        this.baseTowns;
+        this.towns;
+        this.indexer;
+        this.searchlpt;
     }
 
     /**
@@ -10,10 +14,7 @@ class WorldCities extends AbstractApp {
      * A mettre donc dans le constructeur.
      * Revois le diagramme pour corriger.
      */
-    baseTowns(){}
-    towns(){}
-    indexer(){}
-    searchlpt(){}
+    
 
     set index(value){}
 
